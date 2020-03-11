@@ -26,6 +26,12 @@ html {
     box-sizing: border-box;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     max-width: 42em;
     margin: 0 auto;
